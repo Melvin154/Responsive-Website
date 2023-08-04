@@ -48,18 +48,23 @@ body{
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
     margin: 25px;
-    padding: 15px;
-    vertical-align: baseline;
+    padding: 5px;
   }
   .column {
     flex: 25%;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
   }
   
   .column-1{
-    background-color: rgba(234, 217, 217, 0.55);
+    background-color: antiquewhite;
+    flex: 25%;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+  #row{
+    background-color:white;
     flex: 25%;
     padding: 50px;
     font-family: 'Times New Roman', Times, serif;
@@ -111,7 +116,7 @@ body{
   }
 
 
-
+/*news page*/
 .news{
     margin-top: 50px;
     position: relative;
@@ -125,3 +130,15 @@ body{
   }
 
 
+/*Footer Page*/
+.footer{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: antiquewhite;
+  margin: 25px;
+  padding: 25px;
+  line-height: 2rem;
+}
+a:hover{
+  color: red;
+}
